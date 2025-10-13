@@ -82,3 +82,28 @@ Load the page you want to see in your browser:
 ## See Also
 
 - A Docker Image of the-internet ([link](https://hub.docker.com/r/gprestes/the-internet/))
+
+## Playwright tests
+
+This repository includes a minimal Playwright setup to run end-to-end tests against the app.
+
+Quick start:
+
+1. Install Node.js and npm (if you don't have them).
+2. Install test dependencies and Playwright browsers:
+
+```bash
+npm install
+npm run install:browsers
+```
+
+3. Run tests (the Playwright tests start the Sinatra app via `rackup` on port 4567):
+
+```bash
+npm test
+```
+
+Notes:
+- Playwright's base URL is configured to http://localhost:4567 in `playwright.config.js`.
+- Ensure `rackup` (from the `rack` gem) is available in your PATH. Alternatively, start the app manually with `rackup -p 4567` and run `npm test -- --grep "Login" --workers=1`.
+- Login credentials used by the app: `tomsmith` / `SuperSecretPassword!`.
