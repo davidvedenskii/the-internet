@@ -8,6 +8,6 @@ module.exports = defineConfig({
     headless: true,
     viewport: { width: 1280, height: 720 },
     actionTimeout: 5000,
-    baseURL: 'http://localhost:4567'
+    baseURL: 'https://the-internet.herokuapp.com'
   }
 });

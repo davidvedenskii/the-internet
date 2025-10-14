@@ -1,0 +1,154 @@
+Running `bundle install --verbose` with bundler 1.17.2
+Warning: the running version of Bundler (1.17.2) is older than the version that created the lockfile (1.17.3). We suggest you upgrade to the latest version of Bundler by running `gem install bundler`.
+Found changes from the lockfile, re-resolving dependencies because bundler is unlocking ruby: (version, 2.6.10, 2.7.2)
+HTTP GET https://index.rubygems.org/versions
+HTTP 304 Not Modified https://index.rubygems.org/versions
+Fetching gem metadata from https://rubygems.org/
+Looking up gems ["sinatra", "sinatra-flash", "sinatra-contrib", "shotgun", "zurb-foundation", "compass", "ffi", "rake", "pony", "faker", "uuid", "selenium-webdriver", "rspec", "sauce_whisk"]
+Looking up gems ["rest-client", "json", "macaddr", "backports", "eventmachine", "rack-protection", "rack-test", "tilt", "multi_json", "mustermann", "activesupport", "haml", "chunky_png", "sass", "fssm", "listen", "compass-core", "compass-import-once", "rb-fsevent", "rb-inotify", "rails", "jquery-rails", "railties", "modular-scale", "rspec-core", "rspec-expectations", "rspec-mocks", "rack", "launchy", "tmail", "mime-types", "mail", "json_pure", "rubyzip", "childprocess", "libwebsocket", "websocket", "rexml", "base64", "logger", "prism", "mongrel", "rack-session", "i18n", "pastel", "thor", "tty-pager", "tty-screen", "tty-tree"]
+Looking up gems ["rdoc", "netrc", "http-cookie", "http-accept", "systemu", "rspec-support", "rails-dom-testing", "actionpack", "rack-ssl", "method_source", "zeitwerk", "irb", "rackup", "tsort", "escape_utils", "tool", "ruby2_keywords", "temple", "sass-listen", "builder", "memcache-client", "tzinfo", "minitest", "thread_safe", "concurrent-ruby", "bigdecimal", "connection_pool", "drb", "mutex_m", "securerandom", "benchmark", "uri", "sassy-math", "actionmailer", "activerecord", "activeresource", "actionwebservice", "bundler", "sprockets-rails", "actionview", "activemodel", "activejob", "actioncable", "activestorage", "actionmailbox", "actiontext", "diff-lcs", "rb-fchange", "rb-kqueue", "celluloid", "celluloid-io", "ruby_dep", "mime-types-data", "configuration", "spoon", "addressable", "treetop", "tlsmail", "mini_mime", "net-imap", "net-pop", "net-smtp", "cgi_multipart_eof_fix", "daemons", "fastthread", "gem_plugin", "strscan", "spruz", "equatable", "tty-color", "tty-which", "verse", "strings", "racc"]
+Looking up gems ["domain_name", "sqlite3", "functional-ruby", "ref", "ruby_parser", "hoe", "psych", "erb", "ZenTest", "RubyInline", "atomic", "reline", "pp", "erubis", "rack-mount", "rack-cache", "sprockets", "journey", "rails-deprecated_sanitizer", "rails-html-sanitizer", "nokogiri", "useragent", "webrick", "arel", "activerecord-deprecated_finders", "timeout", "rails-observers", "activemodel-serializers-xml", "fraction", "text-format", "erubi", "coffee-rails", "em-hiredis", "faye-websocket", "redis", "websocket-driver", "nio4r", "activemodel-globalid", "globalid", "dotenv", "nenv", "rspec-logsplit", "timers", "marcel", "mimemagic", "action_text-trix", "bcrypt-ruby", "win32-api", "facter", "celluloid-essentials", "celluloid-extras", "celluloid-fsm", "celluloid-pool", "celluloid-supervision", "public_suffix", "digest", "net-protocol", "facets", "polyglot", "unicode-display_width", "unicode_utils", "strings-ansi", "date"]
+Looking up gems ["unf", "cgi", "jar-dependencies", "stringio", "prettyprint", "abstract", "mini_portile2", "ParseTree", "sexp_processor", "rubyforge", "gemcutter", "multimap", "io-console", "weakling", "mini_portile", "pkg-config", "loofah", "hike", "hiredis", "text-hyphen", "dotenv-deployment", "coffee-script", "thin", "websocket-extensions", "hitimes", "redis-client", "CFPropertyList", "sys-admin", "win32console", "win32-dir", "windows-api", "windows-pr", "win32-security", "hocon", "sys-filesystem", "celluloid-gems", "coveralls", "rubocop", "bcrypt", "test-unit", "io-wait", "unicode-emoji"]
+Looking up gems ["coffee-script-source", "execjs", "ruby-maven", "net-scp", "net-ftp", "crass", "unf_ext", "SexpProcessor", "rake-compiler", "mkrf", "libxml-ruby", "nkf", "ffi-win32-extensions", "mkmf-lite", "colorize", "simplecov", "term-ansicolor", "tins", "rainbow", "parser", "powerpack", "ruby-progressbar", "astrolabe", "parallel", "jaro_winkler", "rubocop-ast", "regexp_parser", "language_server-protocol", "lint_roller", "unicode-version", "power_assert"]
+Looking up gems ["net-ssh", "mize", "time", "maven-tools", "ruby-maven-libs", "simplecov-html", "docile", "lockfile", "simplecov_json_formatter", "ast", "slop", "ptools", "memoist", "sync", "pattern-match"]
+Looking up gems ["needle", "jruby-pageant", "bcrypt_pbkdf", "rbnacl", "rbnacl-libsodium", "virtus", "win32-file", "protocol"]
+Looking up gems ["win32-file-stat", "descendants_tracker", "axiom-types", "coercible", "equalizer"]
+Looking up gems ["adamantium", "ice_nine"]
+Looking up gems ["memoizable"]
+Double checking for ["bundler"] in rubygems repository https://rubygems.org/ or installed locally
+Fetching gem metadata from https://rubygems.org/
+Looking up gems ["bundler"]
+Resolving dependencies...
+Using rake 11.1.2
+0:  rake (11.1.2) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/rake-11.1.2.gemspec
+Using backports 3.6.8
+0:  backports (3.6.8) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/backports-3.6.8.gemspec
+Using bundler 1.17.2
+0:  bundler (1.17.2) from /Users/davidvedenskii/.rbenv/versions/2.6.10/lib/ruby/gems/2.6.0/specifications/default/bundler-1.17.2.gemspec
+Fetching ffi 1.17.2 (arm64-darwin)
+Installing ffi 1.17.2 (arm64-darwin)
+0:  ffi (1.17.2) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/ffi-1.17.2-arm64-darwin.gemspec
+Using childprocess 0.6.3
+0:  childprocess (0.6.3) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/childprocess-0.6.3.gemspec
+Using chunky_png 1.3.5
+0:  chunky_png (1.3.5) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/chunky_png-1.3.5.gemspec
+Using multi_json 1.11.2
+0:  multi_json (1.11.2) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/multi_json-1.11.2.gemspec
+Using sass 3.4.22
+0:  sass (3.4.22) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/sass-3.4.22.gemspec
+Using compass-core 1.0.3
+0:  compass-core (1.0.3) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/compass-core-1.0.3.gemspec
+Using compass-import-once 1.0.5
+0:  compass-import-once (1.0.5) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/compass-import-once-1.0.5.gemspec
+Using rb-fsevent 0.9.7
+0:  rb-fsevent (0.9.7) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/rb-fsevent-0.9.7.gemspec
+Using rb-inotify 0.9.7
+0:  rb-inotify (0.9.7) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/rb-inotify-0.9.7.gemspec
+Using compass 1.0.3
+0:  compass (1.0.3) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/compass-1.0.3.gemspec
+Using diff-lcs 1.3
+0:  diff-lcs (1.3) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/diff-lcs-1.3.gemspec
+Fetching unf_ext 0.0.7.4
+Installing unf_ext 0.0.7.4 with native extensions
+Building native extensions. This could take a while...
+0:  unf_ext (0.0.7.4) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/unf_ext-0.0.7.4.gemspec
+Fetching unf 0.1.4
+Installing unf 0.1.4
+0:  unf (0.1.4) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/unf-0.1.4.gemspec
+Fetching domain_name 0.5.20170404
+Installing domain_name 0.5.20170404
+0:  domain_name (0.5.20170404) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/domain_name-0.5.20170404.gemspec
+Fetching i18n 0.7.0
+Installing i18n 0.7.0
+0:  i18n (0.7.0) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/i18n-0.7.0.gemspec
+Fetching faker 1.6.3
+Installing faker 1.6.3
+0:  faker (1.6.3) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/faker-1.6.3.gemspec
+Fetching http-cookie 1.0.3
+Installing http-cookie 1.0.3
+0:  http-cookie (1.0.3) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/http-cookie-1.0.3.gemspec
+Using json 2.1.0
+0:  json (2.1.0) from /Users/davidvedenskii/.rbenv/versions/2.6.10/lib/ruby/gems/2.6.0/specifications/default/json-2.1.0.gemspec
+Fetching systemu 2.6.5
+Installing systemu 2.6.5
+0:  systemu (2.6.5) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/systemu-2.6.5.gemspec
+Fetching macaddr 1.7.1
+Installing macaddr 1.7.1
+0:  macaddr (1.7.1) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/macaddr-1.7.1.gemspec
+Fetching mime-types-data 3.2016.0221
+Installing mime-types-data 3.2016.0221
+0:  mime-types-data (3.2016.0221) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/mime-types-data-3.2016.0221.gemspec
+Fetching mime-types 3.0
+Installing mime-types 3.0
+0:  mime-types (3.0) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/mime-types-3.0.gemspec
+Fetching mail 2.6.4
+Installing mail 2.6.4
+0:  mail (2.6.4) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/mail-2.6.4.gemspec
+Fetching netrc 0.11.0
+Installing netrc 0.11.0
+0:  netrc (0.11.0) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/netrc-0.11.0.gemspec
+Fetching pony 1.11
+Installing pony 1.11
+0:  pony (1.11) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/pony-1.11.gemspec
+Fetching rack 1.6.4
+Installing rack 1.6.4
+0:  rack (1.6.4) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/rack-1.6.4.gemspec
+Fetching rack-protection 1.5.3
+Installing rack-protection 1.5.3
+0:  rack-protection (1.5.3) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/rack-protection-1.5.3.gemspec
+Fetching rack-test 0.6.3
+Installing rack-test 0.6.3
+0:  rack-test (0.6.3) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/rack-test-0.6.3.gemspec
+Fetching rest-client 2.0.2
+Installing rest-client 2.0.2
+0:  rest-client (2.0.2) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/rest-client-2.0.2.gemspec
+Fetching rspec-support 3.5.0
+Installing rspec-support 3.5.0
+0:  rspec-support (3.5.0) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/rspec-support-3.5.0.gemspec
+Fetching rspec-core 3.5.4
+Installing rspec-core 3.5.4
+0:  rspec-core (3.5.4) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/rspec-core-3.5.4.gemspec
+Fetching rspec-expectations 3.5.0
+Installing rspec-expectations 3.5.0
+0:  rspec-expectations (3.5.0) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/rspec-expectations-3.5.0.gemspec
+Fetching rspec-mocks 3.5.0
+Installing rspec-mocks 3.5.0
+0:  rspec-mocks (3.5.0) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/rspec-mocks-3.5.0.gemspec
+Fetching rspec 3.5.0
+Installing rspec 3.5.0
+0:  rspec (3.5.0) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/rspec-3.5.0.gemspec
+Fetching rubyzip 1.2.1
+Installing rubyzip 1.2.1
+0:  rubyzip (1.2.1) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/rubyzip-1.2.1.gemspec
+Fetching sauce_whisk 0.1.0
+Installing sauce_whisk 0.1.0
+0:  sauce_whisk (0.1.0) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/sauce_whisk-0.1.0.gemspec
+Fetching websocket 1.2.4
+Installing websocket 1.2.4
+0:  websocket (1.2.4) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/websocket-1.2.4.gemspec
+Fetching selenium-webdriver 3.4.0
+Installing selenium-webdriver 3.4.0
+0:  selenium-webdriver (3.4.0) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/selenium-webdriver-3.4.0.gemspec
+Fetching shotgun 0.9.1
+Installing shotgun 0.9.1
+0:  shotgun (0.9.1) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/shotgun-0.9.1.gemspec
+Fetching tilt 2.0.2
+Installing tilt 2.0.2
+0:  tilt (2.0.2) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/tilt-2.0.2.gemspec
+Fetching sinatra 1.4.7
+Installing sinatra 1.4.7
+0:  sinatra (1.4.7) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/sinatra-1.4.7.gemspec
+Fetching sinatra-contrib 1.4.7
+Installing sinatra-contrib 1.4.7
+0:  sinatra-contrib (1.4.7) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/sinatra-contrib-1.4.7.gemspec
+Fetching sinatra-flash 0.3.0
+Installing sinatra-flash 0.3.0
+0:  sinatra-flash (0.3.0) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/sinatra-flash-0.3.0.gemspec
+Fetching uuid 2.3.8
+Installing uuid 2.3.8
+0:  uuid (2.3.8) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/uuid-2.3.8.gemspec
+Fetching zurb-foundation 4.3.2
+Installing zurb-foundation 4.3.2
+0:  zurb-foundation (4.3.2) from /Users/davidvedenskii/Documents/GitHub/the-internet/vendor/bundle/ruby/2.6.0/specifications/zurb-foundation-4.3.2.gemspec
+Bundle complete! 14 Gemfile dependencies, 48 gems now installed.
+Bundled gems are installed into `./vendor/bundle`

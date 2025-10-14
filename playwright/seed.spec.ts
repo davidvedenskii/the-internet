@@ -1,7 +1,15 @@
-import { test, expect } from '@playwright/test';
+import { test as base, expect } from '@playwright/test';
 
-test.describe('Test group', () => {
-  test('seed', async ({ page }) => {
-    // generate code here.
-  });
+type TestFixtures = {
+  baseURL: string;
+};
+
+export const test = base.extend<TestFixtures>({
+  baseURL: ['https://the-internet.herokuapp.com', { scope: 'test' }],
+});
+
+// Example of how to use the fixture
+test('verify base URL', async ({ page, baseURL }) => {
+  await page.goto(baseURL);
+  await expect(page).toHaveURL(baseURL);
 });
