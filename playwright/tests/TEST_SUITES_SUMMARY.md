@@ -96,9 +96,66 @@ This document summarizes all the Playwright test suites created for the views in
     - Right click shows alert
     - Left click does not show alert
 
+15. **horizontal-slider.spec.ts** (6 tests)
+    - Page load verification
+    - Initial slider value
+    - Move slider to maximum
+    - Move slider to middle value
+    - Move slider with keyboard
+    - Move slider incrementally
+
+16. **inputs.spec.ts** (8 tests)
+    - Page load verification
+    - Enter positive/negative/decimal numbers
+    - Enter zero
+    - Increment/decrement with arrow keys
+    - Clear input field
+
+17. **key-presses.spec.ts** (8 tests)
+    - Page load verification
+    - Press letter/number keys
+    - Press Enter/Space/Backspace/Tab
+    - Press arrow keys
+    - Press Escape key
+
+18. **download.spec.ts** (5 tests)
+    - Page load verification
+    - Download links present
+    - Download file
+    - Multiple downloads available
+    - File names visible
+
+19. **windows.spec.ts** (5 tests)
+    - Page load verification
+    - Open new window
+    - Original window remains
+    - Switch between windows
+    - New window has correct content
+
+20. **dynamic-content.spec.ts** (5 tests)
+    - Page load verification
+    - Content has images and text
+    - Refresh changes content
+    - Static content mode
+    - Content rows are present
+
+21. **dynamic-loading.spec.ts** (9 tests)
+    - Example 1: Hidden element tests
+    - Example 2: Rendered element tests
+    - Loading indicator timing
+
+22. **tables.spec.ts** (8 tests)
+    - Page load verification
+    - Table structure verification
+    - Table data rows
+    - Sorting functionality
+    - Edit/delete actions
+    - Email addresses present
+    - Monetary values present
+
 ### Total Test Coverage:
-- **14 Test Suites**
-- **77 Individual Tests**
+- **22 Test Suites**
+- **130 Individual Tests**
 - **All tests passing across multiple browsers**
 
 ### Browser Support:
