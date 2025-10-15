@@ -26,9 +26,11 @@ test.describe('Infinite Scroll', () => {
     const initialParagraphs = page.locator('.jscroll-added');
     const initialCount = await initialParagraphs.count();
     
-    // Scroll down
-    await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
-    await page.waitForTimeout(1000);
+    // Scroll down multiple times to ensure content loads (mobile needs multiple scrolls)
+    for (let i = 0; i < 3; i++) {
+      await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+      await page.waitForTimeout(800);
+    }
     
     // Get new paragraph count
     const newCount = await page.locator('.jscroll-added').count();

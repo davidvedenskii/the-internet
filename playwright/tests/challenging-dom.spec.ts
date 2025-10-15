@@ -21,8 +21,8 @@ test.describe('Challenging DOM', () => {
   });
 
   test('Three Buttons Present', async ({ page }) => {
-    // Verify all three buttons with different classes
-    const buttons = page.locator('.button, .button.alert, .button.success');
+    // Verify all three buttons (blue, alert/red, success/green)
+    const buttons = page.locator('a.button, button.button');
     const buttonCount = await buttons.count();
     expect(buttonCount).toBeGreaterThanOrEqual(3);
     

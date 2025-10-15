@@ -88,14 +88,14 @@ test.describe('iFrame', () => {
     const iframe = page.frameLocator('#mce_0_ifr');
     const editor = iframe.locator('body#tinymce, #tinymce');
     
-    // Verify editor exists and try to get content
-    const isVisible = await editor.isVisible().catch(() => false);
-    if (isVisible) {
+    // Wait for editor to be visible
+    await expect(editor).toBeVisible({ timeout: 10000 });
+    
+    // Wait for content to load with retry logic
+    await expect(async () => {
       const content = await editor.textContent();
       expect(content).toBeTruthy();
-    } else {
-      // Editor might be readonly or in different state
-      expect(true).toBe(true);
-    }
+      expect(content?.trim().length).toBeGreaterThan(0);
+    }).toPass({ timeout: 5000, intervals: [500, 1000] });
   });
 });

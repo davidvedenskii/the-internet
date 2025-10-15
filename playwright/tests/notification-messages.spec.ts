@@ -55,7 +55,8 @@ test.describe('Notification Messages', () => {
     // Click close button if it exists
     const closeButton = notification.locator('.close');
     if (await closeButton.count() > 0) {
-      await closeButton.click();
+      // Force click to bypass overlapping elements (e.g., GitHub fork banner on mobile)
+      await closeButton.click({ force: true });
       await expect(notification).not.toBeVisible();
     }
   });

@@ -26,13 +26,15 @@ test.describe('WYSIWYG Editor', () => {
     const iframe = page.frameLocator('#mce_0_ifr');
     const editorBody = iframe.locator('body#tinymce, #tinymce');
     
-    const isVisible = await editorBody.isVisible().catch(() => false);
-    if (isVisible) {
+    // Wait for editor to be visible
+    await expect(editorBody).toBeVisible({ timeout: 10000 });
+    
+    // Wait for content to load with retry logic
+    await expect(async () => {
       const text = await editorBody.textContent();
       expect(text).toBeTruthy();
-    } else {
-      expect(true).toBe(true);
-    }
+      expect(text?.trim().length).toBeGreaterThan(0);
+    }).toPass({ timeout: 5000, intervals: [500, 1000] });
   });
 
   test.skip('Type Text in Editor', async ({ page }) => {

@@ -1,0 +1,98 @@
+
+Running 1405 tests using 5 workers
+
+[1A[2K[1/1405] [chromium] › playwright/tests/ab-testing.spec.ts:23:9 › A/B Testing Features › Basic A/B Test Page › Content Verification
+[1A[2K[2/1405] [chromium] › playwright/tests/ab-testing.spec.ts:5:9 › A/B Testing Features › Basic A/B Test Page › Page Load Verification
+[1A[2K[3/1405] [chromium] › playwright/tests/ab-testing.spec.ts:38:9 › A/B Testing Features › Cookie-based A/B Test › Initial Page Load
+[1A[2K[4/1405] [chromium] › playwright/tests/ab-testing.spec.ts:51:9 › A/B Testing Features › Cookie-based A/B Test › Cookie Implementation
+[1A[2K[5/1405] [chromium] › playwright/tests/ab-testing.spec.ts:69:9 › A/B Testing Features › Cookie-based A/B Test › Cookie Persistence
+[1A[2K[6/1405] [chromium] › playwright/tests/ab-testing.spec.ts:112:9 › A/B Testing Features › Manual (JavaScript) A/B Test › JavaScript Activation
+[1A[2K[7/1405] [chromium] › playwright/tests/ab-testing.spec.ts:99:9 › A/B Testing Features › Manual (JavaScript) A/B Test › Initial Page State
+[1A[2K[8/1405] [chromium] › playwright/tests/ab-testing.spec.ts:126:9 › A/B Testing Features › Manual (JavaScript) A/B Test › JavaScript State Persistence
+[1A[2K[9/1405] [chromium] › playwright/tests/add-remove-elements.spec.ts:8:7 › Add/Remove Elements Feature › Initial Page Load
+[1A[2K[10/1405] [chromium] › playwright/tests/add-remove-elements.spec.ts:22:7 › Add/Remove Elements Feature › Add Single Element
+[1A[2K[11/1405] [chromium] › playwright/tests/add-remove-elements.spec.ts:35:7 › Add/Remove Elements Feature › Add Multiple Elements
+[1A[2K[12/1405] [chromium] › playwright/tests/add-remove-elements.spec.ts:53:7 › Add/Remove Elements Feature › Remove Single Element
+[1A[2K[13/1405] [chromium] › playwright/tests/add-remove-elements.spec.ts:63:7 › Add/Remove Elements Feature › Remove Multiple Elements
+[1A[2K[14/1405] [chromium] › playwright/tests/basic-auth.spec.ts:15:7 › Basic Authentication › Authentication Success
+[1A[2K[15/1405] [chromium] › playwright/tests/basic-auth.spec.ts:32:7 › Basic Authentication › Authentication Failure
+[1A[2K[16/1405] [chromium] › playwright/tests/basic-auth.spec.ts:43:7 › Basic Authentication › Session Persistence
+[1A[2K[17/1405] [chromium] › playwright/tests/basic-auth.spec.ts:61:7 › Basic Authentication › Direct Access Without Credentials
+[1A[2K[18/1405] [chromium] › playwright/tests/broken-images.spec.ts:14:7 › Broken Images › Page Load Verification
+[1A[2K[19/1405] [chromium] › playwright/tests/broken-images.spec.ts:27:7 › Broken Images › Image Elements Presence
+[1A[2K[20/1405] [chromium] › playwright/tests/broken-images.spec.ts:41:7 › Broken Images › Valid Image Verification
+[1A[2K[21/1405] [chromium] › playwright/tests/broken-images.spec.ts:73:7 › Broken Images › Broken Image Detection
+[1A[2K[22/1405] [chromium] › playwright/tests/broken-images.spec.ts:114:7 › Broken Images › Image Loading Performance
+[1A[2K[23/1405] [chromium] › playwright/tests/challenging-dom.spec.ts:8:7 › Challenging DOM › Page Load Verification
+[1A[2K[24/1405] [chromium] › playwright/tests/challenging-dom.spec.ts:23:7 › Challenging DOM › Three Buttons Present
+[1A[2K[25/1405] [chromium] › playwright/tests/challenging-dom.spec.ts:33:7 › Challenging DOM › Table with Data Present
+[1A[2K[26/1405] [chromium] › playwright/tests/challenging-dom.spec.ts:17:7 › Challenging DOM › Canvas Element Present
+[1A[2K[27/1405] [chromium] › playwright/tests/challenging-dom.spec.ts:49:7 › Challenging DOM › Click Blue Button
+[1A[2K[28/1405] [chromium] › playwright/tests/challenging-dom.spec.ts:60:7 › Challenging DOM › Click Red Button
+[1A[2K[29/1405] [chromium] › playwright/tests/challenging-dom.spec.ts:71:7 › Challenging DOM › Click Green Button
+[1A[2K[30/1405] [chromium] › playwright/tests/challenging-dom.spec.ts:82:7 › Challenging DOM › Table Row Actions
+[1A[2K[31/1405] [chromium] › playwright/tests/checkboxes.spec.ts:8:7 › Checkboxes › Page Load Verification
+[1A[2K[32/1405] [chromium] › playwright/tests/checkboxes.spec.ts:17:7 › Checkboxes › Initial Checkbox States
+[1A[2K[33/1405] [chromium] › playwright/tests/checkboxes.spec.ts:29:7 › Checkboxes › Toggle First Checkbox
+[1A[2K[34/1405] [chromium] › playwright/tests/checkboxes.spec.ts:44:7 › Checkboxes › Toggle Second Checkbox
+[1A[2K[35/1405] [chromium] › playwright/tests/checkboxes.spec.ts:59:7 › Checkboxes › Multiple Checkbox Interactions
+[1A[2K[36/1405] [chromium] › playwright/tests/context-menu.spec.ts:8:7 › Context Menu › Page Load Verification
+[1A[2K[37/1405] [chromium] › playwright/tests/context-menu.spec.ts:20:7 › Context Menu › Right Click Shows Alert
+[1A[2K[38/1405] [chromium] › playwright/tests/context-menu.spec.ts:34:7 › Context Menu › Left Click Does Not Show Alert
+[1A[2K[39/1405] [chromium] › playwright/tests/digest-auth.spec.ts:4:7 › Digest Authentication › Successful Digest Authentication
+[1A[2K[40/1405] [chromium] › playwright/tests/digest-auth.spec.ts:23:7 › Digest Authentication › Failed Digest Authentication - Wrong Username
+[1A[2K[41/1405] [chromium] › playwright/tests/digest-auth.spec.ts:40:7 › Digest Authentication › Failed Digest Authentication - Wrong Password
+[1A[2K[42/1405] [chromium] › playwright/tests/digest-auth.spec.ts:57:7 › Digest Authentication › No Credentials Provided
+[1A[2K[43/1405] [chromium] › playwright/tests/disappearing-elements.spec.ts:8:7 › Disappearing Elements › Page Load Verification
+[1A[2K[44/1405] [chromium] › playwright/tests/disappearing-elements.spec.ts:17:7 › Disappearing Elements › At Least Four Elements Present
+[1A[2K[45/1405] [chromium] › playwright/tests/disappearing-elements.spec.ts:27:7 › Disappearing Elements › Home Link Present
+[1A[2K[46/1405] [chromium] › playwright/tests/disappearing-elements.spec.ts:33:7 › Disappearing Elements › About Link Present
+[1A[2K[47/1405] [chromium] › playwright/tests/disappearing-elements.spec.ts:39:7 › Disappearing Elements › Contact Link Present
+[1A[2K[48/1405] [chromium] › playwright/tests/disappearing-elements.spec.ts:45:7 › Disappearing Elements › Portfolio Link Present
+[1A[2K[49/1405] [chromium] › playwright/tests/disappearing-elements.spec.ts:51:7 › Disappearing Elements › Gallery Link May or May Not Be Present
+[1A[2K[50/1405] [chromium] › playwright/tests/disappearing-elements.spec.ts:67:7 › Disappearing Elements › Multiple Page Reloads Show Different States
+[1A[2K[51/1405] [chromium] › playwright/tests/download.spec.ts:8:7 › File Download › Page Load Verification
+[1A[2K[52/1405] [chromium] › playwright/tests/download.spec.ts:21:7 › File Download › Download Links Are Present
+[1A[2K[53/1405] [chromium] › playwright/tests/download.spec.ts:35:7 › File Download › Download File
+[1A[2K[54/1405] [chromium] › playwright/tests/download.spec.ts:52:7 › File Download › Multiple Downloads Available
+[1A[2K[55/1405] [chromium] › playwright/tests/download.spec.ts:60:7 › File Download › File Names Visible
+[1A[2K[56/1405] [chromium] › playwright/tests/drag-and-drop.spec.ts:8:7 › Drag and Drop › Page Load Verification
+[1A[2K[57/1405] [chromium] › playwright/tests/drag-and-drop.spec.ts:21:7 › Drag and Drop › Initial State
+[1A[2K[58/1405] [chromium] › playwright/tests/drag-and-drop.spec.ts:30:7 › Drag and Drop › Drag Column A to Column B
+[1A[2K[59/1405] [chromium] › playwright/tests/drag-and-drop.spec.ts:49:7 › Drag and Drop › Drag Column B to Column A
+[1A[2K[60/1405] [chromium] › playwright/tests/drag-and-drop.spec.ts:64:7 › Drag and Drop › Drag and Drop Multiple Times
+[1A[2K[61/1405] [chromium] › playwright/tests/dropdown.spec.ts:8:7 › Dropdown › Page Load Verification
+[1A[2K[62/1405] [chromium] › playwright/tests/dropdown.spec.ts:21:7 › Dropdown › Dropdown Initial State
+[1A[2K[63/1405] [chromium] › playwright/tests/dropdown.spec.ts:32:7 › Dropdown › Select Option 1
+[1A[2K[64/1405] [chromium] › playwright/tests/dropdown.spec.ts:44:7 › Dropdown › Select Option 2
+[1A[2K[65/1405] [chromium] › playwright/tests/dropdown.spec.ts:56:7 › Dropdown › Switch Between Options
+[1A[2K[66/1405] [chromium] › playwright/tests/dropdown.spec.ts:72:7 › Dropdown › Dropdown Options Count
+[1A[2K[67/1405] [chromium] › playwright/tests/dynamic-content.spec.ts:8:7 › Dynamic Content › Page Load Verification
+[1A[2K[68/1405] [chromium] › playwright/tests/dynamic-content.spec.ts:22:7 › Dynamic Content › Content Has Images and Text
+[1A[2K[69/1405] [chromium] › playwright/tests/dynamic-content.spec.ts:36:7 › Dynamic Content › Refresh Changes Content
+[1A[2K[70/1405] [chromium] › playwright/tests/dynamic-content.spec.ts:52:7 › Dynamic Content › Static Content Mode
+[1A[2K[71/1405] [chromium] › playwright/tests/dynamic-content.spec.ts:67:7 › Dynamic Content › Content Rows Are Present
+[1A[2K[72/1405] [chromium] › playwright/tests/dynamic-controls.spec.ts:8:7 › Dynamic Controls › Page Load Verification
+[1A[2K[73/1405] [chromium] › playwright/tests/dynamic-controls.spec.ts:17:7 › Dynamic Controls › Remove Checkbox
+[1A[2K[74/1405] [chromium] › playwright/tests/dynamic-controls.spec.ts:41:7 › Dynamic Controls › Add Checkbox Back
+[1A[2K[75/1405] [chromium] › playwright/tests/dynamic-controls.spec.ts:62:7 › Dynamic Controls › Enable Input Field
+[1A[2K[76/1405] [chromium] › playwright/tests/dynamic-controls.spec.ts:90:7 › Dynamic Controls › Disable Input Field
+[1A[2K[77/1405] [chromium] › playwright/tests/dynamic-loading.spec.ts:9:9 › Dynamic Loading › Example 1: Hidden Element › Page Load Verification
+[1A[2K[78/1405] [chromium] › playwright/tests/dynamic-loading.spec.ts:21:9 › Dynamic Loading › Example 1: Hidden Element › Element Hidden Initially
+[1A[2K[79/1405] [chromium] › playwright/tests/dynamic-loading.spec.ts:28:9 › Dynamic Loading › Example 1: Hidden Element › Click Start Reveals Element
+[1A[2K[80/1405] [chromium] › playwright/tests/dynamic-loading.spec.ts:53:9 › Dynamic Loading › Example 2: Rendered Element › Page Load Verification
+[1A[2K[81/1405] [chromium] › playwright/tests/dynamic-loading.spec.ts:65:9 › Dynamic Loading › Example 2: Rendered Element › Element Not Present Initially
+[1A[2K[82/1405] [chromium] › playwright/tests/dynamic-loading.spec.ts:72:9 › Dynamic Loading › Example 2: Rendered Element › Click Start Renders Element
+[1A[2K[83/1405] [chromium] › playwright/tests/dynamic-loading.spec.ts:91:9 › Dynamic Loading › Example 2: Rendered Element › Loading Indicator Timing
+[1A[2K[84/1405] [chromium] › playwright/tests/entry-ad.spec.ts:4:7 › Entry Ad › Page Load Shows Modal
+[1A[2K[85/1405] [chromium] › playwright/tests/entry-ad.spec.ts:16:7 › Entry Ad › Modal Contains Close Button
+[1A[2K[86/1405] [chromium] › playwright/tests/entry-ad.spec.ts:25:7 › Entry Ad › Close Modal by Clicking Close Button
+[1A[2K[87/1405] [chromium] › playwright/tests/entry-ad.spec.ts:40:7 › Entry Ad › Page Content Visible After Closing Modal
+[1A[2K[88/1405] [chromium] › playwright/tests/entry-ad.spec.ts:57:7 › Entry Ad › Restart Ad Link Shows Modal Again
+[1A[2K[89/1405] [chromium] › playwright/tests/exit-intent.spec.ts:8:7 › Exit Intent › Page Load Without Modal
+[1A[2K[90/1405] [chromium] › playwright/tests/exit-intent.spec.ts:19:8 › Exit Intent › Modal Appears on Exit Intent
+[1A[2K[91/1405] [chromium] › playwright/tests/exit-intent.spec.ts:35:8 › Exit Intent › Modal Contains Close Button
+[1A[2K[92/1405] [chromium] › playwright/tests/exit-intent.spec.ts:52:8 › Exit Intent › Close Modal
+[1A[2K[93/1405] [chromium] › playwright/tests/exit-intent.spec.ts:71:8 › Exit Intent › Page Content Remains Accessible After Modal
+[1A[2K[94/1405] [chromium] › playwright/tests/floating-menu.spec.ts:8:7 › Floating Menu › Page Load Verification
+[1A[2K[95/1405] [chromium] › playwright/tests/floating-menu.spec.ts:17:7 › Floating Menu › Floating Menu Visible on Page Load
