@@ -1,4 +1,5 @@
 title,url_path,notes
+title,url_path,note
 A/B Testing,/abtest
 Basic Auth,/basic_auth,user and pass: admin
 File Download,/download
